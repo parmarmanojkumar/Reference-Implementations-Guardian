@@ -2,7 +2,7 @@ from phi.agent import Agent
 from phi.model.ollama import Ollama
 from phi.tools.yfinance import YFinanceTools
 from guardian_api import GuardianAPIConfig  # Import the GuardianAPIConfig class
-from agent_workflow_guardrail import AgentWorkflow, guardian_config_check_function
+from agent_workflow_guardrail import GuardedAgentWorkflow, guardian_config_check_function
 from termcolor import colored
 from phi.tools.duckduckgo import DuckDuckGo
 
@@ -56,5 +56,5 @@ user_prompts = [
 ]
 
 # Running the workflow
-workflow = AgentWorkflow(agent_financial_analyst, guardian_config, user_prompts, guardrail_config, verbose_flag=False)
+workflow = GuardedAgentWorkflow(agent_financial_analyst, guardian_config, user_prompts, guardrail_config, verbose_flag=False)
 workflow.run()
