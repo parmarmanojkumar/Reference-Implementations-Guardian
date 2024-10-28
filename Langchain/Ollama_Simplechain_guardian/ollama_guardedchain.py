@@ -6,7 +6,7 @@ from pydantic import Field
 import requests
 
 # Defining the chain
-class SimpleOllamaChain(Chain):
+class GuardedOllamaChain(Chain):
     ollama_model: OllamaLLM = Field(...)
     guardian_config: GuardianAPIConfig = Field(...)
 

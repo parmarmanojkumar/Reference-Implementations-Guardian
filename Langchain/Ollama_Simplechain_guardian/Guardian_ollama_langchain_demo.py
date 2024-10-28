@@ -2,7 +2,7 @@ from langchain_ollama.llms import OllamaLLM
 import time
 from termcolor import colored
 from guardian_api import GuardianAPIConfig  # Import the GuardianAPIConfig class
-from ollama_simplechain import SimpleOllamaChain
+from ollama_guardedchain import GuardedOllamaChain
 
 
 # Example usage
@@ -15,7 +15,7 @@ if __name__ == "__main__":
     ollama_model = OllamaLLM(model="llama3.2:1b")
 
     # Create the chain
-    chain = SimpleOllamaChain(ollama_model=ollama_model, guardian_config=guardian_config)
+    chain = GuardedOllamaChain(ollama_model=ollama_model, guardian_config=guardian_config)
     print(colored("=" * 50, "blue"))
     # Example input prompts
     user_inputs = [
