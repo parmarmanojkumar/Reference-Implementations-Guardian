@@ -4,7 +4,7 @@ from termcolor import colored
 from phi.utils.pprint import pprint_run_response
 import time
 
-class AgentWorkflow:
+class GuardedAgentWorkflow:
     def __init__(self, agent: Agent, guardian_config: GuardianAPIConfig, prompts: list, guardrail_config: dict, verbose_flag=False):
         self.agent = agent
         self.guardian_config = guardian_config
