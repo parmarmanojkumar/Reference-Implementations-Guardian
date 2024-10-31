@@ -1,0 +1,5 @@
+requests
+tenacity
+termcolor
+phidata
+duckduckgo-search
