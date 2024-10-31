@@ -11,7 +11,7 @@ Join us in securing the future of **Agentic AI** today!
 
 ## 📜 Overview
 
-Integrate **Guardian** ([Link](https://www.boschaishield.com/aishield-guardian/)) with **CrewAI** ([Link](https://www.crewai.com)) for an all-in-one, policy-compliant, safe and secure crews and workflow system!
+Integrate **AIShield Guardian** ([Link](https://www.boschaishield.com/aishield-guardian/)) with **CrewAI** ([Link](https://www.crewai.com)) for an all-in-one, policy-compliant, safe and secure crews and workflow system!
 
 This reference implementation demonstrates integrating the **Guardian API** with **CrewAI** crews to monitor, validate, and manage task workflows. Using agents for planning, estimating, and resource allocation, it establishes a secure, policy-compliant framework enhanced with automated monitoring. The Guardian API serves as a critical guardrail, helping to enforce content standards, prevent inappropriate task progression, and secure outputs within configurable and predefined compliance boundaries.
 

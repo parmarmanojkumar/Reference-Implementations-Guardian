@@ -17,7 +17,7 @@ This repository provides all integrations leveraging AIShield Guardian for secur
 
 ## 🦜️🔗 Langchain Implementation
 
-- **Ollama** : [GuardedOllamaChain](AgentAI/Crewai_Agent_Example) implementation with example of chatbot chain
+- **Ollama** : [GuardedOllamaChain](Langchain/Ollama_Simplechain_guardian) implementation with example of chatbot chain
 
 ## 📅 **[Schedule a call to Learn More!](https://share-eu1.hsforms.com/1er3vym0FRA-r_B2ZnG5OWQffb9n?__hstc=138249519.4d817d58bf2f28287881f1a4495c2daa.1682320777326.1688113936277.1688634393681.37&__hssc=138249519.1.1688634393681&__hsfp=524412920)**
 
