@@ -14,6 +14,7 @@ This repository provides all integrations leveraging AIShield Guardian for secur
 
 - **CrewAI** : [GuardedCrew](AgentAI/Crewai_Agent_Example) implementation with example of project planning crew
 - **Phidata** : [GuardedAgentWorkflow](AgentAI/PhiData_Agent_Examples) implementation with the financial agent workflow
+- **Microsoft AutoGen** : [MonitorRoundRobinGroupChat](AgentAI/Microsoft_Autogen_Example) implementation with travel planning agents
 
 ## 🦜️🔗 Langchain Implementation
 
