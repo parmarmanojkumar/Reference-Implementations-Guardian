@@ -16,7 +16,7 @@ Join us in securing the future of **Agentic AI** today!
 
 ## 📜 Overview
 
-Integrate **Guardian** ([Link](https://www.boschaishield.com/aishield-guardian/)) with **Phidata** ([Link](https://www.phidata.com)) for an all-in-one, policy-compliant, safe and secure agents and workflow system!
+Integrate **AIShield Guardian** ([Link](https://www.boschaishield.com/aishield-guardian/)) with **Phidata** ([Link](https://www.phidata.com)) for an all-in-one, policy-compliant, safe and secure agents and workflow system!
 
 This reference implementation showcases the integration of the **Guardian API** with **Phidata** agents to effectively monitor, validate, and manage agents and their workflows. By leveraging agents for planning and execution, it creates a secure, policy-compliant framework enhanced by automated oversight. The Guardian API acts as a critical safeguard, enforcing content standards, preventing inappropriate agent or workflow progressions, and securing outputs within configurable compliance boundaries. 
 
