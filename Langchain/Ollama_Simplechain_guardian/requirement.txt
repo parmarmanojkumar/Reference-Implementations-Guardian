@@ -1,0 +1,6 @@
+requests
+tenacity
+termcolor
+pydantic
+langchain
+langchain-ollama
