@@ -76,6 +76,8 @@ With **Guardian** as your compliance and security guardrail, secure every crew, 
    export GUARDIAN_API_KEY="your_guardian_api_key"
    ```
 
+**📝 NOTE:** For getting your `GUARDIAN_API_ENDPOINT` and `GUARDIAN_API_KEY`, please [Contact Us.](mailto:contact.aishield@bosch.com?subject=Request%20for%20Guardian%20API%20key&body=Hello,%0D%0A%0D%0AI%20want%20to%20use%20Guardian%20API%20for%20my%20agentic%20workflow.%20Could%20you%20please%20provide%20me%20an%20API%20key.%0D%0A%0D%0AName:%0D%0AGithub%20profile%20or%20LinkedIn%20profile:%0D%0AIntended%20use:%0D%0AAgentic%20AI%20Framework:%0D%0A)
+
 2. Configure environment variables for working with your preferred choice of LLM (Refer this [LLM guide](https://docs.crewai.com/concepts/llms) provided by CrewAI).
 
 **📝 NOTE:** For this implementation, OpenAI API end point is used along with `gpt-4o-mini` model .
@@ -99,7 +101,10 @@ The integration of **Guardian API** within **CrewAI** adds a layer of validation
 
 ### 🔌 GuardianAPIClient 🛡️
 
-The `GuardianAPIClient` class is responsible for interacting with the Guardian API. It centralizes request handling, enabling secure and reliable data exchange.
+The `GuardianAPIClient` class is responsible for interacting with the Guardian API. It centralizes request handling, enabling secure and reliable data exchange. 
+
+**📝 NOTE:** For getting your `GUARDIAN_API_ENDPOINT` and `GUARDIAN_API_KEY`, please [Contact Us.](mailto:contact.aishield@bosch.com?subject=Request%20for%20Guardian%20API%20key&body=Hello,%0D%0A%0D%0AI%20want%20to%20use%20Guardian%20API%20for%20my%20agentic%20workflow.%20Could%20you%20please%20provide%20me%20an%20API%20key.%0D%0A%0D%0AName:%0D%0AGithub%20profile%20or%20LinkedIn%20profile:%0D%0AIntended%20use:%0D%0AAgentic%20AI%20Framework:%0D%0A)
+
 
 - **Initialization**: Configures a base URL and optional API key with authorization headers.
 - **GET and POST Methods**: Simplify API communication, including error handling for logging issues.
@@ -147,6 +152,7 @@ Agents and tasks are defined in YAML files, allowing modular customization:
   - **Resource Allocation**: Tracks milestones using the `ProjectPlan` model.
 
 This configuration enables scalability and adaptability by allowing task and agent customization per project.
+
 ---
 
 If you want to know more on technical integration and how to run in your environment, 
