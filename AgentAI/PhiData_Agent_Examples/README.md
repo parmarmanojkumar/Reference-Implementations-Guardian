@@ -79,11 +79,11 @@ With **Guardian** as your compliance and security guardrail, secure every agents
    export GUARDIAN_API_KEY="your_guardian_api_key"
    ```
 
-**📝 NOTE:** For getting your `GUARDIAN_API_ENDPOINT` and `GUARDIAN_API_KEY`, please [Contact Us.](mailto:contact.aishield@bosch.com?subject=Request%20for%20Guardian%20API%20key&body=Hello,%0D%0A%0D%0AI%20want%20to%20use%20Guardian%20API%20for%20my%20agentic%20workflow.%20Could%20you%20please%20provide%20me%20an%20API%20key.%0D%0A%0D%0AName:%0D%0AGithub%20profile%20or%20LinkedIn%20profile:%0D%0AIntended%20use:%0D%0AAgentic%20AI%20Framework:%0D%0A)
+- **📝 NOTE:** For getting your `GUARDIAN_API_ENDPOINT` and `GUARDIAN_API_KEY`, please [Contact Us.](mailto:contact.aishield@bosch.com?subject=Request%20for%20Guardian%20API%20key&body=Hello,%0D%0A%0D%0AI%20want%20to%20use%20Guardian%20API%20for%20my%20agentic%20workflow.%20Could%20you%20please%20provide%20me%20an%20API%20key.%0D%0A%0D%0AName:%0D%0AGithub%20profile%20or%20LinkedIn%20profile:%0D%0AIntended%20use:%0D%0AAgentic%20AI%20Framework:%0D%0A)
 
 2. Configure environment variables for working with your preferred choice of LLM (Refer this [Model guide](https://docs.phidata.com/models/introduction) provided by Phidata).
 
-**📝 NOTE:** For this implementation, Ollama ([configuration](https://docs.phidata.com/models/ollama)) is used along with `llama3.2:1b` model ([Model card from Ollama](https://ollama.com/library/llama3.2:1b); [Model card from huggingface](https://huggingface.co/meta-llama/Llama-3.2-1B)) .
+- **📝 NOTE:** For this implementation, Ollama ([configuration](https://docs.phidata.com/models/ollama)) is used along with `llama3.2:1b` model ([Model card from Ollama](https://ollama.com/library/llama3.2:1b); [Model card from huggingface](https://huggingface.co/meta-llama/Llama-3.2-1B)).
 
 ###  ▶️  Run the Example
 To start the financial agent (Phidata reference agent [implementation](https://github.com/phidatahq/phidata/blob/924a61169a46b57204a932896249165c99d8eecc/cookbook/assistants/finance.py#L4) without guardrail) and run example prompts through Guardian validation, execute:
@@ -133,6 +133,7 @@ The integration of **Guardian API** within **Phidata** adds a layer of validatio
 The `GuardianAPIClient` class is responsible for interacting with the Guardian API. It centralizes request handling, enabling secure and reliable data exchange.
 
 - **Initialization**: Configures a base URL and optional API key with authorization headers.
+  - **📝 NOTE:** For getting your `GUARDIAN_API_ENDPOINT` and `GUARDIAN_API_KEY`, please [Contact Us.](mailto:contact.aishield@bosch.com?subject=Request%20for%20Guardian%20API%20key&body=Hello,%0D%0A%0D%0AI%20want%20to%20use%20Guardian%20API%20for%20my%20agentic%20workflow.%20Could%20you%20please%20provide%20me%20an%20API%20key.%0D%0A%0D%0AName:%0D%0AGithub%20profile%20or%20LinkedIn%20profile:%0D%0AIntended%20use:%0D%0AAgentic%20AI%20Framework:%0D%0A)
 - **GET and POST Methods**: Simplify API communication, including error handling for logging issues.
 - **Endpoints**:
   - **Configuration**: Retrieves configuration details.
