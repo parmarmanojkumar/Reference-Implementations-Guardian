@@ -3,7 +3,7 @@
 
 **Agentic AI Security for Safe, Secure and, Policy-Compliant Workflows at Enterprise Scale**
 
-Unlock secure, compliant workflows with the powerful **AIShield Guardian** x **CrewAI** integration. Designed to actively monitor, validate, and guard every step, this integration empowers **Agentic AI** to operate securely, safely and responsibly at enterprise scale.
+Securely use **Agentic AI**  at enterprise scale without hassle. Leverage multi-agent platforms with safe, secure and compliant workflows through the integration of **AIShield Guardian** & **CrewAI**. 
 
 Join us in securing the future of **Agentic AI** today!
 
@@ -11,21 +11,19 @@ Join us in securing the future of **Agentic AI** today!
 
 ## 📜 Overview
 
-Integrate **Guardian** ([Link](https://www.boschaishield.com/aishield-guardian/)) with **CrewAI** ([Link](https://www.crewai.com)) for an all-in-one, policy-compliant, safe and secure crews and workflow system!
+Integrate **AIShield Guardian** ([Link](https://www.boschaishield.com/aishield-guardian/)) with **CrewAI** ([Link](https://www.crewai.com)) for an all-in-one, policy-compliant, safe and secure crews and workflow system!
 
-This reference implementation demonstrates integrating the **Guardian API** with **CrewAI** crews to monitor, validate, and manage task workflows. Using agents for planning, estimating, and resource allocation, it establishes a secure, policy-compliant framework enhanced with automated monitoring. The Guardian API serves as a critical guardrail, helping to enforce content standards, prevent inappropriate task progression, and secure outputs within configurable and predefined compliance boundaries.
+This reference implementation demonstrates how the **Guardian API** integrates with **CrewAI** to monitor, validate, and secure task workflows seamlessly. Leveraging agents for planning, estimation, and resource allocation, it establishes a policy-compliant framework strengthened by automated oversight. Guardian serves as a crticial safeguard, enforcing standards, blocking unauthorized/unsafe progress, and securing outputs within defined compliance boundaries that you can set as per your need. 
 
-With **Guardian** as your compliance and security guardrail, secure every crew, flow, agents and task within **CrewAI** at every step with built-in checks, ensuring only safe, approved content flows through.
+With **Guardian** as your compliance and security backbone, every crew, workflow, agent, and task in **CrewAI** is secured with built-in checks, ensuring only safe and approved content flows through each stage.
 
 ## 🔑 Key Takeaways
 
-1. **Policy Enforcement**: Guardian halts non-compliant inputs/outputs, <u>*enforcing policy at every step!*</u> **Guardian** acts as a guardrail, ensuring inputs/outputs are compliant, halting operations for non-compliant outputs even at intermediate stages, if needed.
+1. **Policy Enforcement**: Guardian halts non-compliant inputs/outputs, <u>*enforcing policy at every step!*</u> **Guardian** acts as a guardrail and firewall, ensuring inputs/outputs are compliant, halting operations for non-compliant outputs even at intermediate stages, if needed.
 
+2. **Automated Monitoring and Improved Compliance**: *From start to finish*, Guardian <u>*automates validations and reduces manual reviews*.</u> **Guardian**’s integration streamlines the validation process and flags anomalies in real-time.
 
-2. **Automated Monitoring and Improved Compliance**: *From start to finish*, Guardian <u>*automates validations and reduces manual reviews*.</u> **Guardian**’s integration automates compliance validation at each step, reducing manual checks. Flags anomalies in realtime.
-
-
-3. **Enhanced Security**: *Block unauthorized, sensitive content or malicious content*, <u>ensuring compliant workflows every time</u>. **Guardian** secures task workflows by detecting and blocking (if needed) any unauthorized, malicious or sensitive content. 
+3. **Enhanced Security**: *Detect and block (if needed) unauthorized, sensitive content or malicious content*, <u>ensuring compliant workflows every time</u>. **Guardian** secures task workflows at every step, every time.
 
 ## ⚙️ Technical Highlights
 
