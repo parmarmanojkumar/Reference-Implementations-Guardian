@@ -3,7 +3,9 @@
 
 Learn more about AIShield Guardian [here](https://www.boschaishield.com/aishield-guardian/)
 
-This repository provides all integrations leveraging AIShield Guardian for secure, policy-compliant AI workflows.
+This repository provides all integrations leveraging AIShield Guardian for secure, policy-compliant AI workflows for Agentic AI systems.
+
+📜 To know more about 🤖  **Agentic AI system** and 🛡️**AI Agentic Security** read this [primer](LearnAgenticAISecurity/agentic_ai_security.md).
 
 ## ⚙️ Common Components
 

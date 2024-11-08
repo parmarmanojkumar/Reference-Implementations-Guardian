@@ -12,6 +12,8 @@ With the rapid expansion of AI applications, securing AI interactions is essenti
 
 Unchecked AI models can produce harmful or non-compliant content, posing security risks. Integrating a security layer through LangChain ensures safe usage by validating input and output, securing user interactions.
 
+📜 To know more about 🤖  **Agentic AI system** and 🛡️**AI Agentic Security** read this [primer](../LearnAgenticAISecurity/agentic_ai_security.md).
+
 ## 💻  Reference Implementation
 
 For a secure AI setup, you can explore integrations like **Ollama**  with **Guardian API**  within **Langchain** framework to monitor compliance and guardrail interactions.
