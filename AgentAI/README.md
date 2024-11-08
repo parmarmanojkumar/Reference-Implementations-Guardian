@@ -7,6 +7,8 @@ Agentic AI, or AI agents that operate autonomously, offer great potential in fie
 
 Ensuring safety in agentic AI protects sensitive data, enforces ethical guidelines, and prevents harmful outputs. By integrating security measures, we ensure AI systems operate within trusted boundaries.
 
+📜 To know more about 🤖  **Agentic AI system** and 🛡️**AI Agentic Security** read this [primer](../LearnAgenticAISecurity/agentic_ai_security.md).
+
 ## 💻 Reference Implementation
 
 For a secure agentic AI setup, you can explore integrations like **CrewAI** and **Phidata** with **Guardian API** to monitor compliance and guardrail interactions.
