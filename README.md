@@ -1,6 +1,11 @@
 
 # 🌐 Reference Implementations for Secure & Compliant AI Workflows with **🔐 AIShield Guardian** 
 
+![Static Badge](https://img.shields.io/badge/State-Beta-yellow) 
+![Static Badge](https://img.shields.io/badge/Notice-Work_in_Progress-blue)
+
+
+
 Learn more about AIShield Guardian [here](https://www.boschaishield.com/aishield-guardian/)
 
 This repository provides all integrations leveraging AIShield Guardian for secure, policy-compliant AI workflows for Agentic AI systems.
