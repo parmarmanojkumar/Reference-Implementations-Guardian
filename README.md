@@ -14,7 +14,7 @@ This repository provides all integrations leveraging AIShield Guardian for secur
 
 ## ⚙️ Common Components
 
-- **Guardian API** : The core [GuardianAPIClient](guardian_api.py) class enables input/output validation for compliance in workflows.
+- **Guardian API** : The core [GuardianAPIClient](guardian_api.py) class enables input/output validation for compliance in workflows. In case of socket based connectivity use [GuardianAPIClient](guardian_api_soket.py). For testing connectivity leverage the utility of [GuardianConnectivityTest](utils/guardian_connectivity_test.py).
     - **📝 NOTE:** For getting your `GUARDIAN_API_ENDPOINT` and `GUARDIAN_API_KEY`, please [Contact Us.](mailto:contact.aishield@bosch.com?subject=Request%20for%20Guardian%20API%20key&body=Hello,%0D%0A%0D%0AI%20want%20to%20use%20Guardian%20API%20for%20my%20agentic%20workflow.%20Could%20you%20please%20provide%20me%20an%20API%20key.%0D%0A%0D%0AName:%0D%0AGithub%20profile%20or%20LinkedIn%20profile:%0D%0AIntended%20use:%0D%0AAgentic%20AI%20Framework:%0D%0A)
 
 ## 🤖 Agentic AI Implementations
