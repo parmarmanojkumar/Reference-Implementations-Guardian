@@ -16,6 +16,7 @@ For a secure agentic AI setup, you can explore integrations like **CrewAI** and 
 - **CrewAI** : [GuardedCrew](Crewai_Agent_Example) implementation with example of project planning crew
 - **Phidata** : [GuardedAgentWorkflow](PhiData_Agent_Examples) implementation with the financial agent workflow
 - **Microsoft AutoGen** : [MonitorRoundRobinGroupChat](Microsoft_Autogen_Example) implementation with travel planning agents
+- **OpenAI Agents SDK** : [input_guardrail/output_guardrail](OpenAI_Agent_SDK_Example) implementation with customer support agent for bank
 - **PydenticAI** : To BE ADDED
 
 
