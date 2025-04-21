@@ -25,6 +25,10 @@ This repository provides all integrations leveraging AIShield Guardian for secur
 - **OpenAI Agents SDK** : [input_guardrail/output_guardrail](AgentAI/OpenAI_Agent_SDK_Example) implementation with customer support agent for bank
 - **PydenticAI** : To BE ADDED
 
+## 🖥️↔️💻  MCP Server Implementation
+
+- **MCP** : [MCPSeerver](MCP/mcp_server_guardian.py) implementation with example MCP server and client
+
 ## 🦜️🔗 Langchain Implementation
 
 - **Ollama** : [GuardedOllamaChain](Langchain/Ollama_Simplechain_guardian) implementation with example of chatbot chain
