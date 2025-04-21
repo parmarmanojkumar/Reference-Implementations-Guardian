@@ -27,7 +27,7 @@ This repository provides all integrations leveraging AIShield Guardian for secur
 
 ## 🖥️↔️💻  MCP Server Implementation
 
-- **MCP** : [MCPSeerver](MCP/mcp_server_guardian.py) implementation with example MCP server and client
+- **MCP** : [MCPServer](MCP/mcp_server_guardian.py) implementation with example MCP server and client
 
 ## 🦜️🔗 Langchain Implementation
 
