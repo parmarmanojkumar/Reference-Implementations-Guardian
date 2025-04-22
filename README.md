@@ -29,6 +29,11 @@ This repository provides all integrations leveraging AIShield Guardian for secur
 
 - **MCP** : [MCPServer](MCP/mcp_server_guardian.py) implementation with example MCP server and client
 
+
+## 🗄️  Safe, Secure and Privacy Preserving RAG
+
+- **SSPP RAG** : [RAG](Safe_Secure_Private_RAG/rag_guardian.py) implementation with example of building safe, secure and privacy preserving RAG for vector database security
+
 ## 🦜️🔗 Langchain Implementation
 
 - **Ollama** : [GuardedOllamaChain](Langchain/Ollama_Simplechain_guardian) implementation with example of chatbot chain
