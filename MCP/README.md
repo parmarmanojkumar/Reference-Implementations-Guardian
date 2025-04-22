@@ -27,6 +27,10 @@ This reference implementation shows how to build a **Guardrail MCP Server** usin
 3. **Enhanced Security**  
    Prevent malicious, sensitive, or biased content from being processed or returned by your LLM.
 
+If you want to know more on technical integration and how to run in your environment, 
+
+## 📅 **[Schedule a Call Here!](https://share-eu1.hsforms.com/1er3vym0FRA-r_B2ZnG5OWQffb9n?__hstc=138249519.4d817d58bf2f28287881f1a4495c2daa.1682320777326.1688113936277.1688634393681.37&__hssc=138249519.1.1688634393681&__hsfp=524412920)**
+
 ---
 
 ## ⚙️ Technical Highlights
@@ -82,33 +86,30 @@ This reference implementation shows how to build a **Guardrail MCP Server** usin
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/your-org/guardrail-mcp-server.git
-   cd guardrail-mcp-server
+   git clone https://github.com/bosch-aisecurity-aishield/Reference-Implementations-Guardian.git
+   cd mcp
    ```
 
-2. **Install dependencies**  
-   ```bash
-   pip install -r requirements.txt
-   ```
 
-3. **Configure environment variables**  
+
+2. **Configure environment variables**  
    ```bash
-   export GUARDIAN_API_ENDPOINT="https://api.aishieldguardian.com"
+   export GUARDIAN_API_ENDPOINT="https://your_guardian_api_endpoint"
    export GUARDIAN_API_KEY="your_guardian_api_key"
    ```
-
+**📝 NOTE:** For getting your `GUARDIAN_API_ENDPOINT` and `GUARDIAN_API_KEY`, please [Contact Us.](mailto:contact.aishield@bosch.com?subject=Request%20for%20Guardian%20API%20key&body=Hello,%0D%0A%0D%0AI%20want%20to%20use%20Guardian%20API%20for%20my%20agentic%20workflow.%20Could%20you%20please%20provide%20me%20an%20API%20key.%0D%0A%0D%0AName:%0D%0AGithub%20profile%20or%20LinkedIn%20profile:%0D%0AIntended%20use:%0D%0AAgentic%20AI%20Framework:%0D%0A)
 ---
 
 ### ▶️ Run the Example
 
 1. **Start the Guardrail MCP server**  
    ```bash
-   python mcp_server.py
+   python mcp_server_guardian.py
    ```
 
 2. **Run the sample LLM test client**  
    ```bash
-   python sample_llm_test.py
+   python mcp_client_test.py
    ```
 
 Interactively enter safe or unsafe prompts to see input/output validations in action.
@@ -234,6 +235,9 @@ def run_test():
 if __name__ == "__main__":
     run_test()
 ```
+If you want to know more on technical integration and how to run in your environment, 
+
+## 📅 **[Schedule a Call Here!](https://share-eu1.hsforms.com/1er3vym0FRA-r_B2ZnG5OWQffb9n?__hstc=138249519.4d817d58bf2f28287881f1a4495c2daa.1682320777326.1688113936277.1688634393681.37&__hssc=138249519.1.1688634393681&__hsfp=524412920)**
 
 ---
 

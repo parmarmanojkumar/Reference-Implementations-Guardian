@@ -5,7 +5,7 @@ from pydantic import BaseModel
 from guardian_api import GuardianAPIConfig
 
 # Configuration parameters for AIShield Guardian API.
-AISHIELD_API_URL = "https://api.aishieldguardian.com"  # Base API URL.
+AISHIELD_API_URL = "your_guardian_api_endpoint_url"  # Base API URL.
 AISHIELD_API_KEY = "your_api_key_here"  # Replace with your actual API key.
 
 # Initialize the Guardian API configuration using the pre-built client.
